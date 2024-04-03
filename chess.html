@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Game</title>
+    <link rel="stylesheet" href="chess.css">
+</head>
+<body>
+    <div class="chess_main">
+        <div class="turns">
+            White Turn
+        </div>
+    <div class="chessboard" ></div>
+    </div>
+       
+    <div class="chess_clocks">
+        <div class="black_time">
+            5 : 00
+        </div>
+        <div class="white_time">
+            5 : 00
+        </div>
+    </div>
+    <div class="pawnpromotion">
+        <div class="pawnpromotion_items">
+            <img src="imgs/rook_w.png" alt="" class="rook_promotion prom">
+            <img src="imgs/knight_w.png" alt="" class="knight_promotion prom">
+            <img src="imgs/bishop_w.png" alt="" class="bishop_promotion prom">
+            <img src="imgs/queen_w.png" alt="" class="queen_promotion prom">
+        </div>
+    </div>
+
+
+    <div class="end">
+     <div class="result">
+        White Won
+     </div>
+    </div>
+<script src="rules.js" ></script> 
+<script src="possiblemoves.js"></script>  
+<script src="chess.js"></script> 
+</body>
+</html>
