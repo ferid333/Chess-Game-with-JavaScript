@@ -477,6 +477,3 @@ function GameOver(win) {
     result.textContent=win
     turn="end"
 }
-
-
-`jjjj?ip=6;`ls``
